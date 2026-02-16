@@ -113,24 +113,31 @@
 
 ---
 
-## Slide 8: Model Architecture
-### Deep Learning Backbones
-1. **EfficientNet-B0**
-   - State-of-the-art efficiency
-   - Optimized accuracy-to-parameters ratio
-   - Mobile-friendly deployment
+## Slide 8: System Architecture
+### Data Collection: Image + Metadata
+- **Dermatoscopic Images:** High-resolution skin lesion images
+- **Clinical Images:** Standard photography of skin lesions
+- **Patient Metadata:** Age, gender, lesion location, medical history
 
-2. **ResNet50**
-   - Proven performance in medical imaging
-   - Skip connections for deep feature learning
-   - Widely adopted in clinical applications
+### Preprocessing: Image Enhancement, Normalization, Augmentation
+- **Missing Values:** Handle incomplete metadata records
+- **Normalization:** Pixel value scaling (0-1 range)
+- **Encoding:** Categorical metadata encoding (age groups, body regions)
 
-### Transfer Learning Approach
-- Pre-trained on ImageNet
-- Fine-tuned on medical datasets
-- Leverages general visual knowledge
+### Feature Engineering: Image Features + Clinical Features
+- **Image Feature Extraction:** CNN-based deep feature extraction
+- **Metadata Scaling:** Standardization of numerical clinical features
+- **Feature Selection:** Relevance-based feature filtering
 
----
+### Fusion Layer: Combine Image Features + Clinical Metadata
+- **Multi-modal Integration:** Concatenate image and clinical features
+- **Attention Mechanism:** Weighted feature importance
+- **Dimensionality Reduction:** PCA/t-SNE for optimal feature space
+
+### Final Classifier: MLP / Random Forest / XGBoost / Deep Neural Network
+- **Multi-class Disease Classification:** 7+ skin disease categories
+- **Binary Melanoma Detection:** Benign vs Malignant classification
+- **Ensemble Methods:** Combined predictions for robust results
 
 ## Slide 9: System Architecture Flow
 ```
