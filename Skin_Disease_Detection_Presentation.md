@@ -409,8 +409,7 @@ Database Storage → Final Report Display
 
 5. International Skin Imaging Collaboration (ISIC) Archive: https://www.isic-archive.com
 
-
-   ## Slide 22: Key Journal Papers
+## Slide 22: Key Journal Papers
 ### Journal Paper 1
 • **Title:** Deep learning for skin cancer classification with dermoscopic images: A systematic review and meta-analysis
 • **Journal:** Artificial Intelligence in Medicine, January 2024
