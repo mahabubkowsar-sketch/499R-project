@@ -91,20 +91,39 @@
 
 ---
 
-## Slide 7: Dataset Sources
-### Primary Datasets
-1. **HAM10000 Dataset**
-   - 10,015 dermatoscopic images
-   - 7 different diagnostic categories
-   - Source: https://www.kaggle.com/datasets/kmader/skin-cancer-mnist-ham10000
+## Slide 7: Required Public Datasets
+### Primary Datasets with Links
 
-2. **ISIC Skin Cancer Dataset**
-   - International Skin Imaging Collaboration
-   - Comprehensive skin lesion archive
-   - Multiple diagnostic classes
-   - Sources:
-     - Official: https://www.isic-archive.com
-     - Kaggle: https://www.kaggle.com/datasets/nodoubttome/skin-cancer9-classesisic
+1. **HAM10000 Dataset**
+   - **Description:** 10,015 dermatoscopic images, 7 diagnostic categories
+   - **Link:** https://www.kaggle.com/datasets/kmader/skin-cancer-mnist-ham10000
+   - **Classes:** Melanoma, Basal cell carcinoma, Benign keratosis, etc.
+
+2. **ISIC 2019 Challenge Dataset**
+   - **Description:** International Skin Imaging Collaboration dataset
+   - **Link:** https://www.kaggle.com/datasets/andrewmvd/isic-2019
+   - **Size:** 25,331 dermoscopic images
+
+3. **ISIC Archive (Official)**
+   - **Description:** Comprehensive skin lesion image repository
+   - **Link:** https://www.isic-archive.com/#!/topWithHeader/wideContentTop/main
+   - **Access:** Free registration required
+
+4. **Skin Cancer MNIST: HAM10000**
+   - **Description:** Preprocessed version for machine learning
+   - **Link:** https://www.kaggle.com/datasets/kmader/skin-cancer-mnist-ham10000
+   - **Format:** 28x28 thumbnails and full resolution images
+
+5. **ISIC 2020 Challenge Dataset**
+   - **Description:** Melanoma classification challenge data
+   - **Link:** https://www.kaggle.com/competitions/siim-isic-melanoma-classification
+   - **Size:** 33,126 dermoscopic images
+
+6. **Dermofit Image Library**
+   - **Description:** University of Edinburgh skin lesion dataset
+   - **Link:** https://licensing.eri.ed.ac.uk/product/dermofit-image-library
+   - **Note:** Academic license required
+
 
 ### Dataset Characteristics
 - High-quality medical imaging data
