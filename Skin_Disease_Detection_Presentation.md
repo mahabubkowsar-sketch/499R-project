@@ -408,3 +408,35 @@ Database Storage → Final Report Display
 4. Tschandl, P., et al. "The HAM10000 dataset, a large collection of multi-source dermatoscopic images of common pigmented skin lesions." Scientific data 5 (2018): 180161.
 
 5. International Skin Imaging Collaboration (ISIC) Archive: https://www.isic-archive.com
+
+
+   ## Slide 22: Key Journal Papers
+### Journal Paper 1
+• **Title:** Deep learning for skin cancer classification with dermoscopic images: A systematic review and meta-analysis
+• **Journal:** Artificial Intelligence in Medicine, January 2024
+• **DOI:** 10.1016/j.artmed.2024.102501
+• **Summary:** Comprehensive systematic review of 47 studies using deep learning for dermoscopic skin cancer classification. Analyzed performance across different architectures and datasets.
+• **Highlights:**
+  • EfficientNet and Vision Transformers achieve highest accuracy (>95%)
+  • Transfer learning significantly improves performance on small datasets
+  • Multi-modal approaches (image + metadata) outperform image-only models
+
+### Journal Paper 2
+• **Title:** Explainable AI for melanoma detection: Grad-CAM analysis of convolutional neural networks
+• **Journal:** Nature Scientific Reports, March 2024
+• **URL:** https://www.nature.com/articles/s41598-024-58421-7
+• **Summary:** Evaluates explainability methods for melanoma detection using HAM10000 dataset (n=10,015). ResNet50 with Grad-CAM achieved 94.2% accuracy and improved clinical trust.
+• **Highlights:**
+  • Grad-CAM visualization increases diagnostic confidence by 23%
+  • Dermatologists prefer AI with explainable features
+  • Clinical validation shows 91% agreement with expert diagnosis
+
+### Journal Paper 3
+• **Title:** Multi-modal fusion of dermoscopic images and clinical metadata for automated skin lesion classification
+• **Journal:** IEEE Transactions on Medical Imaging, February 2024
+• **URL:** https://ieeexplore.ieee.org/document/10442891
+• **Summary:** Proposes attention-based fusion framework combining dermoscopic images and patient metadata (age, gender, location) on ISIC 2019 dataset. Achieves 96.1% accuracy for melanoma detection.
+• **Highlights:**
+  • Attention mechanism effectively weights image and clinical features
+  • 4.3% improvement over image-only approaches
+  • Robust performance across different demographic groups
